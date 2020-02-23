@@ -14,7 +14,7 @@ Steps for importing menu to database
 - Delete inactive(not available in Menu.js) category items from database
 
 # Entry Class
-- [menu_import.py]
+- [menu_import.py](https://github.com/Khotstar/menu_updater/blob/master/menu_import.py)
 
 # Environment Variables
 - FTP_SERVER = "xxx.xxx.x.xx"
