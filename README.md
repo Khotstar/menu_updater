@@ -12,3 +12,19 @@ Steps for importing menu to database
 - Populate items in database from Menu.json
 - Populate category in database items from Menu.json
 - Delete inactive(not available in Menu.js) category items from database
+
+# Entry Class
+menu_import.py
+
+# Environment Variables
+FTP_SERVER = "xxx.xxx.x.xx"
+FTP_SERVER_USER_NAME = "xxxxxx"
+FTP_SERVER_PASSWORD = "xxxxxxxx"
+
+DB_USER ="xxxx"
+DB_PASSWORD = "xxxxx"
+DB_HOST = "xxx.xxx.xx.xx"
+DB_PORT = "xxxx"
+DB_DATABASE = "xxxxx"
+
+
