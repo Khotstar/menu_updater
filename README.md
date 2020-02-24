@@ -29,7 +29,8 @@ Steps for importing menu to database
 
 
 # Menu.json structure
-```{
+```
+{
    "category":[
       {
          "name":"Appetizer"
