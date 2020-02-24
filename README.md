@@ -75,9 +75,9 @@ Steps for importing menu to database
 ```
 
 # Assumptions
-- Helper functions get_categories and get_items except an argument file_name not json, so reading the file each function call.
-- As exiting item can be removed from the menu, so added deleting unavaliable menu items from category_items table
-- Unavabliable category_items canb't be deactived(adding extra column active status in database), so delting those records.
+- Helper functions get_categories and get_items except an argument file_name, not a json, so reading the file and getting the json for each function call.
+- As existing items can be removed from the menu, so added deleting unavaliable menu items from category_items table
+- Unavabliable category_items canb't be deactived(adding extra column active status in database), instead delting those records.
 
 # Note
 - Code is implemented using Python 3.7.3
