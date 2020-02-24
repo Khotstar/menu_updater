@@ -13,6 +13,8 @@ Steps for importing menu to database
 - Populate category in database items from Menu.json
 - Delete inactive(not available in Menu.js) category items from database
 
+# Flow Diagram
+[embed]https://github.com/Khotstar/menu_updater/blob/master/docs/Process%20Document.pdf[/embed]
 # Entry Class
 - [menu_import.py](https://github.com/Khotstar/menu_updater/blob/master/menu_import.py)
 
