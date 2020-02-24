@@ -28,3 +28,41 @@ Steps for importing menu to database
 - DB_DATABASE = "xxxxx"
 
 
+# Menu.json structure
+```{
+   "category":[
+      {
+         "name":"Appetizer"
+      },
+      {
+         "name":"Entree"
+      },
+      {
+         "name":"Dessert"
+      }
+   ],
+   "item":[
+      {
+         "name":"French Fries",
+         "category":"Appetizer"
+      },
+      {
+         "name":"Onion Rings",
+         "category":"Appetizer"
+      },
+      {
+         "name":"Sandwich",
+         "category":"Entree"
+      },
+      {
+         "name":"Tacos",
+         "category":"Entree"
+      },
+      {
+         "name":"Ice Cream Sundae",
+         "category":"Dessert"
+      }
+   ],
+   "restaurant":"Joe's Grill"
+}```
+
