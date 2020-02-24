@@ -15,7 +15,8 @@ Steps for importing menu to database
 
 # Flow Diagram
 
-[embed]https://github.com/Khotstar/menu_updater/blob/master/docs/Process%20Document.pdf
+![Flow Diagram](/docs/process_doc.jpg)
+Format: ![Alt Text](url)
 
 # Entry Class
 - [menu_import.py](https://github.com/Khotstar/menu_updater/blob/master/menu_import.py)
