@@ -1,5 +1,6 @@
 # Menu Updater
-Updates menu from FTP server to database
+Updates the menu details in database by reading the Menu.js from FTP server.
+This can be scheduled to run every day by using cron or any scheduler.
 
 Steps for importing menu to database
 - Load Menu.json from FTP server
